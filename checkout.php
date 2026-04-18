@@ -21,7 +21,7 @@ if (!empty($cart)) {
     }
 }
 
-$grand_total = $total + 15;
+$grand_total = $total * 1.15;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'] ?? '';
