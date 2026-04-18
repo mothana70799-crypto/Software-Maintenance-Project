@@ -50,8 +50,7 @@ if (!empty($search)) {
     <form method="GET" style="max-width: 600px; margin: 30px auto 0;">
         <div style="display: flex; gap: 8px;">
             <div style="flex: 1; position: relative;">
-                <input type="text" name="search" value="<?php echo htmlspecialchars($search); ?>" 
-                    placeholder="اكتب اسم المنتج..."
+<input type="text" name="q" value="<?php echo htmlspecialchars($search); ?>"                    placeholder="اكتب اسم المنتج..."
                     style="width: 100%; padding: 14px 20px 14px 50px; border-radius: 50px; border: none; font-family: 'Tajawal'; font-size: 16px; box-shadow: var(--shadow-lg);">
                 <i class="fas fa-search" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: var(--gray-400);"></i>
             </div>
