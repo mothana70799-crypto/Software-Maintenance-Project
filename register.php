@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
     $confirm = $_POST['confirm_password'];
     
-    if ($password === $confirm) {
+   if ($password !== $confirm)  {
         $error = 'كلمات المرور غير متطابقة';
     } else {
         $stmt = $conn->prepare("INSERT INTO users (username, email, password, role) VALUES (?, ?, ?, 'user')");
