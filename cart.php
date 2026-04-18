@@ -55,7 +55,7 @@ if (!empty($cart)) {
         while ($row = $result->fetch_assoc()) {
             $qty = $cart[$row['id']]['quantity'];
             $row['quantity'] = $qty;
-            $row['subtotal'] = intval($row['price']) * $qty;
+            $row['subtotal'] = $row['price'] * $qty;;
             $total += $row['subtotal'];
             $cart_items[] = $row;
         }
