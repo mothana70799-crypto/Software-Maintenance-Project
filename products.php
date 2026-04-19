@@ -116,7 +116,7 @@
                 <form method="POST" action="cart.php" style="margin-top: 14px;">
                     <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
                     <input type="hidden" name="action" value="add">
-                    <button type="button" class="btn btn-primary" style="width: 100%;">
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
                         <i class="fas fa-cart-plus"></i> أضف للسلة
                     </button>
                 </form>
