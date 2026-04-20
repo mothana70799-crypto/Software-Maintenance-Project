@@ -110,7 +110,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <div>
                             <h4 style="color: var(--dark); margin-bottom: 4px;">العنوان</h4>
-                            <p style="color: var(--gray-500); font-size: 14px;">الرياض، المملكة العربية السعودية</p>
+                            <p style="color: var(--gray-500); font-size: 14px;">Sakaka, Al-Jawf.</p>
                         </div>
                     </div>
                     <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px;">
@@ -119,7 +119,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <div>
                             <h4 style="color: var(--dark); margin-bottom: 4px;">الهاتف</h4>
-                            <p style="color: var(--gray-500); font-size: 14px;">+966 50 000 0000</p>
+                            <p style="color: var(--gray-500); font-size: 14px;">+966 50 123 4567</p>
                         </div>
                     </div>
                     <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px;">
