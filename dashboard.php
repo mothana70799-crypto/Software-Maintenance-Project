@@ -49,7 +49,7 @@ $orders_result = $conn->query("SELECT COUNT(*) as c FROM orders");
 if ($orders_result) $total_orders = $orders_result->fetch_assoc()['c'];
 
 $total_revenue = 0;
-$rev_result = $conn->query("SELECT COUNT(*) as total FROM orders");
+$rev_result = $conn->query("SELECT COALESCE(SUM(total), 0) as total FROM orders");
 if ($rev_result) $total_revenue = $rev_result->fetch_assoc()['total'];
 ?>
 <!DOCTYPE html>
