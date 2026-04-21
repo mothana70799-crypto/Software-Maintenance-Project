@@ -582,11 +582,7 @@ a {
     justify-content: space-between;
 }
 
-.product-info .price {
-    font-size: 22px;
-    font-weight: 800;
-    color: white;
-}
+.product-info .price { color: var(--primary); }
 
 .product-info .price small {
     font-size: 13px;
